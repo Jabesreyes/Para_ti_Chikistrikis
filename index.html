@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>❤️ Para ti Chikistrikis ❤️</title>
+  </head>
+  <body>
+    <iframe width="0" height="0" src="https://www.youtube.com/embed/DmkKsejNtmM?autoplay=1&loop=1&playlist=DmkKsejNtmM" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+    <div class="card" onclick="showMessage()">
+      <h2 id="title">❤️ Feliz cumpleaños amorcito ❤️</h2>
+      <div class="cake" id="cake">🎂</div>
+      <p class="message" id="message"></p>
+      <!-- Botón que aparecerá después de los mensajes -->
+      <button id="cuponButton" class="cupon-button" onclick="openModal()">Cupón</button>
+    </div>  
+
+    <!-- Modal -->
+    <div id="cuponModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <p style="font-weight: bold; font-size: 20px;">CUPON VALIDO POR:</p>
+        <p style="font-size: 20px;">Unos becerros bien puercos e</p>
+        <p style="font-size: 20px;">insanos hasta hacernos una</p>
+        <p style="font-size: 20px;">endoscopia con la lengua 🫦</p>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
